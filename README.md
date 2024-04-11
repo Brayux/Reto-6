@@ -161,7 +161,6 @@ if __name__ == "__main__":
 * La raíz cúbica del menor número
 
 ```python
-from funciones import ordenar_numeros
 
 def introducir():
     a : float = float(input("Piense en un numero y digitelo: \n "))
@@ -217,21 +216,6 @@ def desarrollo(a,b,c,d,e,numeros):
     raiz(numeros)
     return
     
-def continuar():
-    opcion : int = int(input("¿Desea continuar? Marque 1 (sí) o 2 (no): "))
-    return opcion
-
-if __name__ == "_main_":
-    print("Ingrese cinco número para realizar determinadas operaciones.")
-
-    while True:
-        introducir()
-        opcion = continuar()
-        if opcion == 2:
-            break
-        elif opcion != 1 and 2:
-            print("Estas bien bro?")
-            break
 
 def ordenar_numeros(a,b,c,d,e):
 
@@ -341,14 +325,15 @@ def raiz(numeros):
 8. Para el punto anterior incluir las funciones en un archivo independiente e importarlas para su uso.
 
 ```python
-from funciones import ordenar_numeros
-from funciones import promedio
-from funciones import mediana
-from funciones import promedio_multiplicativo
 from funciones import ascendente
 from funciones import descendente
 from funciones import potencia
 from funciones import raiz
+from funciones import ordenar_numeros
+from funciones import promedio
+from funciones import mediana
+from funciones import promedio_multiplicativo
+
 ```
 
 9. Consultar qué es y cómo funciona pip en python.
